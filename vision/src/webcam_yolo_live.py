@@ -25,7 +25,7 @@ def main():
 
         # run yolo on the frame
         # conf = 0.5 igores all detections under 50% confidence
-        results = model(frame, conf=0.5, verbose=False)[0]
+        results = model(frame, conf=0.1, verbose=False)[0]
 
         # get annotated frame
         annotated_frame = results.plot()
