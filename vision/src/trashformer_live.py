@@ -110,7 +110,7 @@ def main():
             break
 
     cam.release()
-    cv2.detroyAllWindows()
+    cv2.destroyAllWindows()
     print("Stopped.")
 
 if __name__ == "__main__":
