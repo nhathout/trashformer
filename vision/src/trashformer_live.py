@@ -49,7 +49,7 @@ def main():
             break
 
         # run yolo on the frame
-        results = model(frame, conf=0.5, verbose=False)[0]
+        results = model(frame, conf=0.3, verbose=False)[0]
 
         detections_this_frame = []
 
