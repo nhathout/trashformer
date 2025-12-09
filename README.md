@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/images/trashformer_logo.png" alt="Trashformer logo" width="440">
+</p>
+
 # Trashformer
 
 Trashformer is a proof-of-concept system that detects common waste items with YOLOv8, maps these YOLO COCO classes to the four bins on the robot (organic, paper/cardboard, plastics, landfill/other), and streams that information in real time for later use in the robot.
