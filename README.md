@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/images/trashformer_logo.png" alt="Trashformer logo" width="440">
+  <img src="vision/assets/images/trashformer_logo.png" alt="Trashformer logo" width="440">
 </p>
 
 # Trashformer
