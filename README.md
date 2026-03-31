@@ -6,6 +6,16 @@
 
 Trashformer is a proof-of-concept system that detects common waste items with YOLOv8, maps these YOLO COCO classes to the four bins on the robot (organic, paper/cardboard, plastics, landfill/other), and streams that information in real time for later use in the robot.
 
+## Project Images
+
+<p align="center">
+  <img src="assets/images/trashformer1.png" alt="Trashformer hardware prototype with overhead camera and sorting tray" width="47%">
+  <img src="assets/images/trashformer-detection.png" alt="Trashformer live detection view classifying waste items on the tray" width="47%">
+</p>
+<p align="center">
+  Hardware prototype and live YOLOv8 detection output from the Trashformer vision pipeline.
+</p>
+
 ## Repo Layout
 
 - `vision/`: all computer-vision work.
